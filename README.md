@@ -1,0 +1,1 @@
+A library for asserting filesystem properties with shortcuts.

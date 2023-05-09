@@ -1,0 +1,19 @@
+[package]
+name = "shortcut_assert_fs"
+version = "0.1.0"
+authors = ["Vincent Herlemont <vincent@herlemont.fr>"]
+edition = "2018"
+description = "A library for asserting filesystem properties with shortcuts"
+license = "MIT"
+repository = "https://github.com/vincent-herlemont/shortcut_assert_fs"
+readme = "README.md"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+camino = "1.1"
+assert_fs = "1.0"
+walkdir = "2.3"
+filetime = "0.2"
+include_dir = "0.7"
